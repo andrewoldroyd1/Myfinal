@@ -1,0 +1,43 @@
+body{
+    font-family: cursive;
+    color:#f0f8ff;
+    font-size: 20px;   
+    background-color:#5F9EA0;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    z-index: 2;}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+html, body{
+    height: 100%;}
+.nav-link{
+    position:relative;
+    top: -38%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.tableauPlaceholder{
+    position: relative;
+    bottom: 5%;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+}
